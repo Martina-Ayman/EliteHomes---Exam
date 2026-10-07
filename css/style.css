@@ -19,6 +19,14 @@ p
 select{
     appearance: none;
 }
+.input-home {
+    color: #212529 !important;
+    -webkit-text-fill-color: #212529;
+}
+
+.input-home option {
+    color: #212529 !important;
+}
 ::selection{
     color: var(--bs-color-white);
     background-color: var(--bs-color-violet-400);
